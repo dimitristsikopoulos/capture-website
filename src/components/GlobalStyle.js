@@ -35,6 +35,7 @@ h2{
         color: white;
     }
     h4{
+        font-size: 2rem;
         font-weight: bold;
         
     }
