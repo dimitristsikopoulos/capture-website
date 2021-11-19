@@ -16,6 +16,7 @@ import {
   sliderContainer,
 } from "../animation";
 import { useScroll } from "../components/useScroll";
+import ScrollTop from "../components/ScrollTop";
 
 const OurWork = () => {
   const [element, controls] = useScroll();
@@ -50,6 +51,7 @@ const OurWork = () => {
           <img src={theracer} alt="theracer" />
         </Link>
       </Movie>
+      <ScrollTop />
       <Movie
         ref={element2}
         variants={fade}
